@@ -19,8 +19,9 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <vendor>ООО &quot;ФСК ЛАБ&quot;</vendor>
+  <vendor>github.com/ShadobaAI</vendor>
   <version>9.9.9.9</version>
+  <updateCatalogAddress>github.com/ShadobaAI/kafka-adapter</updateCatalogAddress>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
   <defaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</defaultReportSettingsForm>
