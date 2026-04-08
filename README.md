@@ -2,7 +2,7 @@
 
 ![Платформа](https://img.shields.io/badge/1С-8.3.21+-blue)
 ![БСП](https://img.shields.io/badge/БСП-3.1.10+-blue)
-![EDT](https://img.shields.io/badge/EDT-2025.2.3+-blue)
+![EDT](https://img.shields.io/badge/EDT-2025.2+-blue)
 
 Базовая конфигурация 1С:Предприятие для разработки и тестирования [1С: Адаптер Kafka](https://github.com/ShadobaAI/kafka-adapter).
 
