@@ -11,7 +11,6 @@ permissions:
 jobs:
   build:
     name: Сборка CF
-    uses: ShadobaAI/kafka-tools/.github/workflows/build.yml@main
+    uses: ShadobaAI/kafka-tools/.github/workflows/release-1c-artifacts.yml@main
     with:
       version_files: 'src/CommonModules/ОбновлениеИнформационнойБазыKafka/Module.bsl'
-      dockerhub_image: ${{ vars.DOCKERHUB_IMAGE }}
