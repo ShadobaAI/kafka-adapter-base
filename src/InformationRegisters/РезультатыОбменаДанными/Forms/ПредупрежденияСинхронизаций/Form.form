@@ -57,6 +57,7 @@
         <choiceButton>true</choiceButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -109,6 +110,7 @@
         <choiceButton>true</choiceButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -161,6 +163,7 @@
         <choiceButton>true</choiceButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
+        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -190,7 +193,7 @@
         <value>(Синхронизация с ERP - БП, Тип проблемы: Все...)</value>
       </collapsedRepresentationTitle>
       <collapsed>true</collapsed>
-      <controlRepresentation>Picture</controlRepresentation>
+      <controlRepresentation>Button</controlRepresentation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -646,6 +649,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.Список.StandardCommand.Refresh</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -712,6 +716,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредупрежденияСкрытьИзСписка</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -741,6 +746,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредупрежденияПоказатьВСписке</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -771,6 +777,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредупрежденияПоказатьСкрытые</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -829,6 +836,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПровестиДокумент</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -858,6 +866,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ГрупповоеИзменениеРеквизитов</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -886,6 +895,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.Коллизии</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -914,6 +924,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ЗапретЗагрузкиПоДате</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -942,6 +953,7 @@
             <type>Popup</type>
             <extInfo xsi:type="form:PopupGroupExtInfo">
               <representation>Auto</representation>
+              <importance>Normal</importance>
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
@@ -966,6 +978,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Item.Список.StandardCommand.FindByCurrentValue</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -991,6 +1004,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Item.Список.StandardCommand.Find</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1016,6 +1030,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Item.Список.StandardCommand.CancelSearch</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1044,6 +1059,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Item.Список.StandardCommand.ListSettings</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1069,6 +1085,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Item.Список.StandardCommand.DynamicListStandardSettings</commandName>
+                <buttonImportance>Normal</buttonImportance>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1147,6 +1164,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ОтключитьАвтоматическоеОбновлениеФормы</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1177,6 +1195,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.УдалениеУстаревшихЗаписей</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1207,6 +1226,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредыдущаяФормаПредупреждений</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1258,6 +1278,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.Список.StandardCommand.OutputList</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1283,6 +1304,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.StandardCommand.CustomizeForm</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1308,6 +1330,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.StandardCommand.Help</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1432,6 +1455,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ОткрытьОбъект</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1464,6 +1488,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредупрежденияСкрытьИзСписка</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1493,6 +1518,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредупрежденияПоказатьВСписке</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1522,6 +1548,7 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ПредупрежденияПоказатьСкрытые</commandName>
+              <buttonImportance>Normal</buttonImportance>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1572,6 +1599,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.ЖурналРегистрацииВУказанноеВремя</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1592,7 +1620,6 @@
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
-        <useAlternationRowColor>true</useAlternationRowColor>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
@@ -1602,6 +1629,7 @@
           <segments>Список.DefaultPicture</segments>
         </rowPictureDataPath>
         <searchStringLocation>CommandBar</searchStringLocation>
+        <autoMaxCardHeight>true</autoMaxCardHeight>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
           <period>
@@ -1701,6 +1729,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.ЖурналРегистрации</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1763,6 +1792,7 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.УдалениеУстаревшихЗаписей</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1845,6 +1875,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
@@ -1852,7 +1883,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Список</name>
@@ -2058,6 +2089,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЖурналРегистрации</name>
@@ -2075,6 +2107,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПредупрежденияПоказатьСкрытые</name>
@@ -2096,6 +2129,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПредупрежденияПоказатьВСписке</name>
@@ -2117,6 +2151,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОткрытьОбъект</name>
@@ -2138,6 +2173,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЖурналРегистрацииВУказанноеВремя</name>
@@ -2159,6 +2195,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОтключитьАвтоматическоеОбновлениеФормы</name>
@@ -2180,6 +2217,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УдалениеУстаревшихЗаписей</name>
@@ -2201,6 +2239,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПредыдущаяФормаПредупреждений</name>
@@ -2222,6 +2261,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПровестиДокумент</name>
@@ -2247,6 +2287,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Коллизии</name>
@@ -2271,6 +2312,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗапретЗагрузкиПоДате</name>
@@ -2295,6 +2337,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ГрупповоеИзменениеРеквизитов</name>
@@ -2316,6 +2359,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>УзлыОбмена</name>

@@ -335,6 +335,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВключитьОтключитьЗагрузку</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -364,6 +365,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВключитьОтключитьВыгрузку</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -417,6 +419,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>Form.Command.ВключитьОтключитьРегламентноеЗадание</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -442,6 +445,7 @@
             </extInfo>
           </extendedTooltip>
           <commandName>0</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -492,6 +496,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ВыполнитьСценарий</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -513,7 +518,8 @@
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
-    <useAlternationRowColor>true</useAlternationRowColor>
+    <verticalLines>true</verticalLines>
+    <verticalLinesBWA>false</verticalLinesBWA>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <initialTreeView>ExpandTopLevel</initialTreeView>
@@ -523,6 +529,7 @@
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
+    <autoMaxCardHeight>true</autoMaxCardHeight>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -575,6 +582,7 @@
       <textColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </textColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -606,6 +614,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ВключитьОтключитьЗагрузкуВыгрузку</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -635,6 +644,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ВключитьОтключитьЗагрузку</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -664,6 +674,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ВключитьОтключитьВыгрузку</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -696,6 +707,7 @@
       <type>Popup</type>
       <extInfo xsi:type="form:PopupGroupExtInfo">
         <representation>Auto</representation>
+        <importance>Normal</importance>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -721,6 +733,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.СоздатьСценарийОбменаДанными</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -750,6 +763,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ИзменитьСценарийОбменаДанными</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -782,6 +796,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ВключитьОтключитьРегламентноеЗадание</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -832,6 +847,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ВыполнитьСценарий</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -856,13 +872,14 @@
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Find</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Список</name>
@@ -972,6 +989,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИзменитьСценарийОбменаДанными</name>
@@ -996,6 +1014,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВключитьОтключитьРегламентноеЗадание</name>
@@ -1020,6 +1039,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВключитьОтключитьВыгрузку</name>
@@ -1041,6 +1061,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВключитьОтключитьЗагрузку</name>
@@ -1062,6 +1083,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВключитьОтключитьЗагрузкуВыгрузку</name>
@@ -1083,6 +1105,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыполнитьСценарий</name>
@@ -1108,6 +1131,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>УзелИнформационнойБазы</name>

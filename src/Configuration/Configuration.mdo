@@ -12,7 +12,6 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="edb24418-7177-4eb1-a71a-a4bfd95c9495"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dccd5c12-0cf7-455d-93da-d7f2c18e5d4d"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9b2e9d4b-0bde-4dbb-82d0-f0ea0da7ccd6"/>
-  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -34,12 +33,14 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="bf11f072-ee5c-4cc1-9c6d-e35b1c705b62">
     <name>Русский</name>

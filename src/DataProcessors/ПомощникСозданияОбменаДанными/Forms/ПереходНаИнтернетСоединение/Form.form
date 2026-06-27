@@ -141,7 +141,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -315,7 +316,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -376,7 +378,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -437,7 +440,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -586,7 +590,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -647,7 +652,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -708,7 +714,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -857,7 +864,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -918,7 +926,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -979,7 +988,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -1128,7 +1138,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -1189,7 +1200,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -1250,7 +1262,8 @@
                 <type>Page</type>
                 <extInfo xsi:type="form:PageGroupExtInfo">
                   <group>Vertical</group>
-                  <showTitle>true</showTitle>
+                  <showTitle>auto</showTitle>
+                  <scrollOnCompress>false</scrollOnCompress>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -1365,7 +1378,7 @@
             <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1422,7 +1435,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1553,7 +1567,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>Vertical</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1642,6 +1657,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаНазад</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1729,6 +1745,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаОтмена</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1782,7 +1799,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>HorizontalIfPossible</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1814,6 +1832,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаНазад</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1871,6 +1890,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаНазад</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1900,6 +1920,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаОтмена</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1953,7 +1974,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>HorizontalIfPossible</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -2012,6 +2034,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаГотово</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2041,6 +2064,7 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Command.КомандаОтмена</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2094,7 +2118,8 @@
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
           <group>HorizontalIfPossible</group>
-          <showTitle>true</showTitle>
+          <showTitle>auto</showTitle>
+          <scrollOnCompress>false</scrollOnCompress>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2154,6 +2179,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -2187,7 +2213,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2195,7 +2221,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -2605,6 +2631,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КомандаНазад</name>
@@ -2622,6 +2649,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КомандаОтмена</name>
@@ -2639,6 +2667,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>КомандаГотово</name>
@@ -2656,6 +2685,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
