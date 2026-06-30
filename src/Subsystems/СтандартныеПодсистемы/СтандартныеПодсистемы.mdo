@@ -12,4 +12,5 @@
   <subsystems>ОбновлениеВерсииИБ</subsystems>
   <subsystems>Пользователи</subsystems>
   <subsystems>ОбменДанными</subsystems>
+  <subsystems>ПодключаемыеКоманды</subsystems>
 </mdclass:Subsystem>

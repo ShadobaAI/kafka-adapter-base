@@ -51,8 +51,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
-  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.BaseKafka</subsystems>
+  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
@@ -451,10 +452,10 @@
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьУстановкуОбновленияВручную</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
   <commonModules>CommonModule.ВариантыОтчетов</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
@@ -472,6 +473,8 @@
   <commonModules>CommonModule.ЖурналРегистрации</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииКлиент</commonModules>
+  <commonModules>CommonModule.ЗаполнениеОбъектов</commonModules>
+  <commonModules>CommonModule.ЗаполнениеОбъектовПереопределяемый</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
@@ -528,6 +531,14 @@
   <commonModules>CommonModule.ОтчетыКлиентСервер</commonModules>
   <commonModules>CommonModule.ОтчетыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОтчетыСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыВызовСервера</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыГлобальный</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыКлиент</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыПовтИсп</commonModules>
   <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
@@ -545,6 +556,9 @@
   <commonModules>CommonModule.СерверныеОповещенияСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.СозданиеНаОсновании</commonModules>
+  <commonModules>CommonModule.СозданиеНаОснованииПереопределяемый</commonModules>
+  <commonModules>CommonModule.СозданиеНаОснованииПовтИсп</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыВызовСервера</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыГлобальный</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
