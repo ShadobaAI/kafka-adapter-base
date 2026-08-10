@@ -10,7 +10,5 @@ This repository contains the BSP-based host configuration used to develop and te
 
 ## Repository-Specific Rules
 
-- Use only `kfk_edt` for current-state queries, navigation, and every 1C change under `src/**`.
-- Do not route this project through `code-metadata-mcp`, `graph-metadata-mcp`, `conv_edt`, or `kfk-unit-edt`.
+- Use only the EDT-MCP instance named `kfk-edt` for current-state queries, navigation, platform documentation, diagnostics, and every 1C change under `src/**`.
 - Preserve the host configuration's established source and metadata style within valid `v8std` alternatives.
-
