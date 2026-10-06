@@ -13,4 +13,5 @@
   <subsystems>Пользователи</subsystems>
   <subsystems>ОбменДанными</subsystems>
   <subsystems>ПодключаемыеКоманды</subsystems>
+  <subsystems>РегламентныеЗадания</subsystems>
 </mdclass:Subsystem>

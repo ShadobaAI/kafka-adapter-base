@@ -50,9 +50,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.BaseKafka</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
-  <subsystems>Subsystem.BaseKafka</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
@@ -397,28 +397,30 @@
   <commonPictures>CommonPicture.СостояниеОбменаДанными</commonPictures>
   <commonPictures>CommonPicture.СостояниеОбменаДаннымиОшибка</commonPictures>
   <commonPictures>CommonPicture.СтатусыСопоставленияОбъектов</commonPictures>
+  <commonPictures>CommonPicture.ВыполнитьРегламентноеЗаданиеВручную</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
-  <sessionParameters>SessionParameter.ОбновлениеСправочниковПользователей</sessionParameters>
+  <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
+  <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
+  <sessionParameters>SessionParameter.ВыполняетсяОбновлениеИБ</sessionParameters>
+  <sessionParameters>SessionParameter.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</sessionParameters>
   <sessionParameters>SessionParameter.ДлительныеОперации</sessionParameters>
   <sessionParameters>SessionParameter.КлючДанныхПовторногоИспользования</sessionParameters>
+  <sessionParameters>SessionParameter.ОбновлениеСправочниковИдентификаторов</sessionParameters>
+  <sessionParameters>SessionParameter.ОбновлениеСправочниковПользователей</sessionParameters>
+  <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
+  <sessionParameters>SessionParameter.ОшибкаРасхожденияВерсийПриПолученииДанных</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
-  <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
-  <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
+  <sessionParameters>SessionParameter.ПараметрыСеансаСинхронизацииДанных</sessionParameters>
+  <sessionParameters>SessionParameter.ПаролиСинхронизацииДанных</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
-  <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
-  <sessionParameters>SessionParameter.ОбновлениеСправочниковИдентификаторов</sessionParameters>
-  <sessionParameters>SessionParameter.ВыполняетсяОбновлениеИБ</sessionParameters>
+  <sessionParameters>SessionParameter.ПравилаРегистрацииОбъектов</sessionParameters>
+  <sessionParameters>SessionParameter.ПриоритетныеДанныеОбмена</sessionParameters>
+  <sessionParameters>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</sessionParameters>
+  <sessionParameters>SessionParameter.РежимЗагрузкиСообщенияОбменаДаннымиПередЗапуском</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийВнешнийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
-  <sessionParameters>SessionParameter.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</sessionParameters>
-  <sessionParameters>SessionParameter.ОшибкаРасхожденияВерсийПриПолученииДанных</sessionParameters>
-  <sessionParameters>SessionParameter.ПараметрыСеансаСинхронизацииДанных</sessionParameters>
-  <sessionParameters>SessionParameter.ПаролиСинхронизацииДанных</sessionParameters>
-  <sessionParameters>SessionParameter.ПравилаРегистрацииОбъектов</sessionParameters>
-  <sessionParameters>SessionParameter.ПриоритетныеДанныеОбмена</sessionParameters>
-  <sessionParameters>SessionParameter.РежимЗагрузкиСообщенияОбменаДаннымиПередЗапуском</sessionParameters>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
   <roles>Role.БазовыеПраваБСП</roles>
@@ -452,10 +454,12 @@
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьУстановкуОбновленияВручную</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
+  <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсами</commonModules>
+  <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</commonModules>
   <commonModules>CommonModule.ВариантыОтчетов</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
@@ -549,7 +553,10 @@
   <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.РегламентированныеДанныеКлиентСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияКлиент</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияПереопределяемый</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СерверныеОповещения</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияГлобальный</commonModules>
   <commonModules>CommonModule.СерверныеОповещенияКлиент</commonModules>
@@ -630,6 +637,7 @@
   <eventSubscriptions>EventSubscription.ПроверитьИзменениеФильтровОграниченияМиграцииДанных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьУстранениеПроблемыДокумента</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьУстранениеПроблемыОбъекта</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</scheduledJobs>
@@ -739,6 +747,7 @@
   <constants>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</constants>
   <constants>Constant.СообщениеОбменаДаннымиИзГлавногоУзла</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
+  <constants>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</constants>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
@@ -775,6 +784,7 @@
   <commonForms>CommonForm.ВыборОбъектовИнформационнойБазыКорреспондента</commonForms>
   <commonForms>CommonForm.ДополнительноеОписание</commonForms>
   <commonForms>CommonForm.НастройкиСинхронизацииДанных</commonForms>
+  <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
@@ -816,7 +826,6 @@
   <reports>Report.УчастникиГруппПользователей</reports>
   <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеОбменаДанными</dataProcessors>
-  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаПравилРегистрацииОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.ИнтерактивноеИзменениеВыгрузки</dataProcessors>
   <dataProcessors>DataProcessor.КонвертацияОбъектовXDTO</dataProcessors>
@@ -831,6 +840,7 @@
   <dataProcessors>DataProcessor.ПомощникИнтерактивногоОбменаДанными</dataProcessors>
   <dataProcessors>DataProcessor.ПомощникСозданияОбменаДанными</dataProcessors>
   <dataProcessors>DataProcessor.РегистрацияИзмененийДляОбменаДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.СопоставлениеОбъектовИнформационныхБаз</dataProcessors>
@@ -838,6 +848,7 @@
   <dataProcessors>DataProcessor.ТранспортСообщенийОбменаFILE</dataProcessors>
   <dataProcessors>DataProcessor.ТранспортСообщенийОбменаFTP</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
+  <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <informationRegisters>InformationRegister.АрхивСообщенийОбменов</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
