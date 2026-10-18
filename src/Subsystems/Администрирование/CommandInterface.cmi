@@ -24,6 +24,26 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.НастройкиСинхронизацииДанных</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.УниверсальныйОбменДаннымиXML.Command.УниверсальныйОбменДанными</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.Command.ЗагрузкаДанныхEnterpriseData</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ПредупрежденияПриСинхронизацииДанных</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>CommonCommand.ВремяВПриложении</command>
       <visible/>
     </visibilityFragments>
@@ -33,6 +53,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.ГруппыПользователей.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.СценарииОбменовДанными.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -78,6 +102,18 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>DataProcessor.РегламентныеИФоновыеЗадания.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.УниверсальныйОбменДаннымиXML.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>CommonForm.Расширения.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -91,22 +127,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Report.ДлительностьОтложенногоОбновления.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ПанельАдминистрированияБСП.Command.ИнтернетПоддержкаИСервисы</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиРаботыСФайлами</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ПанельАдминистрированияБСП.Command.Органайзер</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
@@ -126,6 +146,7 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</commands>
       <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
+      <commands>Catalog.СценарииОбменовДанными.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelReports</group>
@@ -150,12 +171,18 @@
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиРаботыСФайлами</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.ПечатныеФормыОтчетыИОбработки</commands>
+      <commands>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</commands>
+      <commands>CommonCommand.НастройкиСинхронизацииДанных</commands>
+      <commands>DataProcessor.УниверсальныйОбменДаннымиXML.Command.УниверсальныйОбменДанными</commands>
+      <commands>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.Command.ЗагрузкаДанныхEnterpriseData</commands>
+      <commands>CommonCommand.ПредупрежденияПриСинхронизацииДанных</commands>
       <commands>CommonCommand.ВремяВПриложении</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</commands>
       <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
+      <commands>Catalog.СценарииОбменовДанными.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ЖурналРегистрации.Command.ЖурналДоступаКДанным</commands>
     </orderFragments>
     <orderFragments>
@@ -173,6 +200,9 @@
       <commands>DataProcessor.НастройкиПользователей.StandardCommand.Open</commands>
       <commands>CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей</commands>
+      <commands>DataProcessor.РегламентныеИФоновыеЗадания.StandardCommand.Open</commands>
+      <commands>DataProcessor.УниверсальныйОбменДаннымиXML.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.StandardCommand.Open</commands>
       <commands>CommonForm.Расширения.StandardCommand.Open</commands>
       <commands>CommonForm.НастройкиВходаПользователей.StandardCommand.Open</commands>
       <commands>CommonForm.ВосстановлениеПаролей.StandardCommand.Open</commands>

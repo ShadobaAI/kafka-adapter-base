@@ -931,6 +931,13 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ДлительнаяОперация</name>
 		<right>
 			<name>View</name>

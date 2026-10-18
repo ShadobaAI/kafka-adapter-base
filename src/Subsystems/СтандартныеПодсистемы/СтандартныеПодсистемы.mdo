@@ -7,11 +7,11 @@
   </synonym>
   <subsystems>БазоваяФункциональность</subsystems>
   <subsystems>ВариантыОтчетов</subsystems>
-  <subsystems>НастройкиПрограммы</subsystems>
   <subsystems>КонструкторФормул</subsystems>
-  <subsystems>ОбновлениеВерсииИБ</subsystems>
-  <subsystems>Пользователи</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
   <subsystems>ОбменДанными</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
   <subsystems>ПодключаемыеКоманды</subsystems>
+  <subsystems>Пользователи</subsystems>
   <subsystems>РегламентныеЗадания</subsystems>
 </mdclass:Subsystem>

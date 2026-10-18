@@ -82,6 +82,13 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</name>
 		<right>
 			<name>Read</name>
@@ -97,6 +104,17 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.РегламентныеИФоновыеЗадания</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
